@@ -150,6 +150,98 @@ The findings suggest that bar coupons are most appealing to a specific lifestyle
 
 ---
 
+<h3 style="color:purple;">Results from dataset</h3>
+<h4 style="color:pink;"> Coffee House Coupon Acceptance by Age Groups</h4>
+
+| **Age Group** | **Acceptance Rate (Y)** |
+|---------------|--------------------------|
+| <20           | N/A |
+| 20–29         | 50.87% |
+| 30–39         | 47.16% |
+| 40–49         | 50.46% |
+| 50–59         | N/A |
+| 60+           | N/A |
+
+**Quick Insights:**
+- **Strongest acceptance:** *20–29* (50.87%) and *40–49* (50.46%), showing similar levels of coupon usage.  
+- **Moderate acceptance:** *30–39* (47.16%).  
+- **Data gaps:** No recorded acceptance for <20, 50–59, and 60+, likely due to insufficient sample size.  
+- Overall, coffee house coupons seem most appealing to **young adults and mid‑career professionals**.
+
+<h4 style="color:pink;"> Coffee House Coupon Acceptance by Marital Status</h4>
+
+| **Marital Status**   | **Acceptance Rate (Y)** |
+|-----------------------|--------------------------|
+| Divorced             | 52.32% |
+| Married partner      | 49.15% |
+| Single               | 51.61% |
+| Unmarried partner    | 47.84% |
+| Widowed              | 35.14% |
+
+**Quick Insights:**
+- **Highest acceptance:** *Divorced* (52.32%) and *Single* (51.61%).  
+- **Lowest acceptance:** *Widowed* (35.14%).  
+- Married and unmarried partners hover around ~48–49%, showing moderate acceptance.  
+- Overall, **non‑widowed groups are fairly consistent**, clustering around ~48–52%.  
+
+<h4 style="color:pink;"> Coffee House Coupon Acceptance by Income Slabs</h4>
+
+| **Income Slab**       | **Acceptance Rate (Y)** |
+|------------------------|--------------------------|
+| $100,000 or more      | 49.15% |
+| $12,500 – $24,999     | 54.04% |
+| $25,000 – $37,499     | 47.34% |
+| $37,500 – $49,999     | 54.24% |
+| $50,000 – $62,499     | 50.37% |
+| $62,500 – $74,999     | 43.64% |
+| $75,000 – $87,499     | 29.66% |
+| $87,500 – $99,999     | 55.43% |
+| Less than $12,500      | 55.19% |
+
+**Quick Insights:**
+- **Highest acceptance:** *$87,500–$99,999* (55.43%) and *Less than $12,500* (55.19%).
+- **Lowest acceptance:** *$75,000–$87,499* (29.66%). *A clear outlier* 
+- Most other brackets hover around ~47–54%, showing relatively balanced acceptance.  
+- Suggests that **upper‑middle income groups** ($37,500–$99,999) are more receptive, while the $75k–$87k bracket is an outlier with notably lower acceptance.
+
+<h4 style="color:pink;"> Coffee House Coupon Acceptance by Occupation</h4>
+
+| **Occupation**                               | **Acceptance Rate (Y)** |
+|----------------------------------------------|--------------------------|
+| Architecture & Engineering                   | 55.56% |
+| Arts, Design, Entertainment, Sports & Media  | 50.72% |
+| Building & Grounds Cleaning & Maintenance    | 72.73% |
+| Business & Financial                         | 47.95% |
+| Community & Social Services                  | 35.14% |
+| Computer & Mathematical                      | 50.00% |
+| Construction & Extraction                    | 47.83% |
+| Education, Training & Library                | 43.58% |
+| Farming, Fishing & Forestry                  | 54.55% |
+| Food Preparation & Serving Related           | 44.58% |
+| Healthcare Practitioners & Technical         | 74.32% |
+| Healthcare Support                           | 61.54% |
+| Installation, Maintenance & Repair           | 56.82% |
+| Legal                                        | 37.68% |
+| Life, Physical, Social Science               | 47.54% |
+| Management                                   | 45.24% |
+| Office & Administrative Support              | 43.15% |
+| Personal Care & Service                      | 50.00% |
+| Production Occupations                       | 35.71% |
+| Protective Service                           | 44.83% |
+| Retired                                      | 40.24% |
+| Sales & Related                              | 39.15% |
+| Student                                      | 62.53% |
+| Transportation & Material Moving             | 61.84% |
+| Unemployed                                   | 54.21% |
+
+**Quick Insights:**
+- **Highest acceptance:** *Healthcare Practitioners & Technical* (74.32%) and *Building & Grounds Cleaning & Maintenance* (72.73%).  
+- **Strong acceptance:** *Students* (62.53%), *Transportation & Material Moving* (61.84%), and *Healthcare Support* (61.54%).  
+- **Lowest acceptance:** *Community & Social Services* (35.14%) and *Production Occupations* (35.71%).  
+- Most occupations cluster between **45–55%**, showing moderate acceptance.  
+
+---
+
 <h3 style="color:orange;">Coffee House Coupons study</h3>
 Summary of the analysis focusing on the coffee house and less expensive restaurant coupons.
 
@@ -168,3 +260,41 @@ These two categories had the highest acceptance rates overall, suggesting they a
 These coupons resonate with customers looking for convenience and value in their daily routines. They require less commitment (financially and socially) than a bar or an expensive restaurant, making the decision to accept them much easier.
 
 ---
+
+<h3 style="color:orange;">General inference on various Coupon Types</h3>
+
+<h4 style="color:pink;"> Coupon Type Distribution</h4>
+
+| **Coupon Type**           | **Count** |
+|----------------------------|-----------|
+| Coffee house              | 3,989 |
+| Restaurant (<20)          | 2,779 |
+| Carry out & take away     | 2,344 |
+| Bar                       | 2,010 |
+| Restaurant (20–50)        | 1,488 |
+
+---
+
+**Quick Insights:**
+- **Most frequent coupon type:** *Coffee house* (3,989).  
+- **Least frequent coupon type:** *Restaurant (20–50)* (1,488).  
+- Restaurants overall (both <20 and 20–50) together account for **4,267 coupons**, slightly more than coffee house alone.  
+- Carry out & take away and bar coupons are mid‑range in frequency.  
+
+<h4 style="color:pink;"> Coupon Counts and Acceptance Rates</h4>
+
+| **Coupon Type**           | **Count** | **Acceptance Rate** |
+|----------------------------|-----------|----------------------|
+| Bar                       | 2,010     | 40.99% |
+| Carry out & take away     | 2,344     | 73.38% |
+| Coffee house              | 3,989     | 49.86% |
+| Restaurant (20–50)        | 1,488     | 44.15% |
+| Restaurant (<20)          | 2,779     | 70.78% |
+
+**Quick Insights:**
+- **Most popular coupon type by count:** *Coffee house* (3,989).  
+- **Highest acceptance rate:** *Carry out & take away* (73.38%), closely followed by *Restaurant (<20)* (70.78%).  
+- **Lowest acceptance rate:** *Bar* (40.99%).  
+- Restaurants overall (both <20 and 20–50) together account for **4,267 coupons**, with strong acceptance in the <20 category.  
+![Coupon Acceptance Rates](./images/coupon_frequency_acceptance.png)
+<!-- ![Can we use GitHub to display?](https://github.com/RohitKBhatnagar/CouponAcceptance/blob/main/images/coupon_frequency_acceptance.png) -->
