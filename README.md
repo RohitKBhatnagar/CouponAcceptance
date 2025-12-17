@@ -13,7 +13,9 @@ The project assignment involves analyzing survey data from Amazon Mechanical Tur
 Following workflows were suggested as a standard data science approach using Python libraries:
 
 - **Data Cleaning**: 
-The process included handling missing values (e.g., dropping the car column, imputing others with mode), standardizing text data, removing duplicates, and treating outliers.
+The process included handling missing values (e.g., dropping the car column (*large missing dataset*), imputing others with mode), standardizing text data, removing duplicates, and treating outliers.
+
+<h1 style="color:yellow;"> EARLY SUMMARY </h1>
 
 - **Statistical Summaries & Visualization**: 
 Acceptance rates were calculated and visualized using pandas, matplotlib, and seaborn across different dimensions like coupon type, weather, time, and passenger type.
@@ -39,7 +41,7 @@ Acceptance rates were calculated and visualized using pandas, matplotlib, and se
 **Overall Proportion of Accepted Coupons:** **56.76%**
 
 ---
-
+<h1 style="color:yellow;"> BAR COUPONS </h1>
 <h3 style="color:orange;">Bar Coupons study</h3>
 Summary of the analysis focusing specifically on the bar coupons, highlighting the differences between those who accepted and rejected the offer.
 
@@ -249,8 +251,14 @@ The findings suggest that bar coupons are most appealing to a specific lifestyle
 - **Lowest acceptance:** *Community & Social Services* (35.14%) and *Production Occupations* (35.71%).  
 - Most occupations cluster between **45–55%**, showing moderate acceptance.  
 
----
+<h2 style="color:brown;">Bar Coupons - Next Steps/Recommendations</h2>
 
+- **Target Young Singles**: Focus marketing efforts for bar coupons specifically on younger (under 30), single customers, as they are the most responsive group.
+- **Leverage Social Context**: Promote bar coupons in the evening or on weekends, emphasizing "group deals" or "couples nights" rather than solo offers.
+- **Avoid Mismatched Targeting**: Limit promotions for bar coupons to drivers with children or those in occupations/age brackets that show low acceptance rates.
+
+---
+<h1 style="color:yellow;"> COFFEE HOUSE COUPONS </h1>
 <h3 style="color:orange;">Coffee House Coupons study</h3>
 Summary of the analysis focusing on the coffee house and less expensive restaurant coupons.
 
@@ -271,6 +279,13 @@ These coupons resonate with customers looking for convenience and value in their
 ![Comparing Bar vs Coffee Coupons Acceptance Rate by Passenger Types](./images/bar_vs_coffee_house_coupon_acceptance_by_passenger.png)
 
 ![Same comparison but via a HeatMap](./images/bar_vs_coffee_house_coupon_acceptance_heatmap.png)
+
+<h2 style="color:brown;">Coffee House Coupons - Next Steps/Recommendations</h2>
+
+- **Targeted Promotions**: Focus marketing efforts for coffee and low-cost restaurant coupons for broad campaigns.
+- **Segment Audiences**: Promote bar coupons specifically to young, single, frequent bar-goers.
+- **Offer Value**: Reframe offers for higher-cost items (bars, expensive restaurants) with added value like "buy one get one free" to overcome hesitation or to overcome jitters from some customers.
+- **Leverage Context**: Use multi-dimensional targeting that combines lifestyle habits (frequency of visits) with demographics (age, passenger type) for maximum impact.
 
 ---
 <h1>Generic Research</h1>
