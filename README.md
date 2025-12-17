@@ -55,6 +55,15 @@ Drivers who accepted bar coupons generally shared several characteristics and co
 - **Income and Occupation**: Lower-income students were a prime segment for acceptance. Certain occupations (outside of farming/fishing/forestry) also showed higher acceptance rates when combined with frequent bar visits.
 - **Time of Day**: Afternoon and evening scenarios showed higher acceptance rates than mornings.
 
+#### Bar coupon acceptance is strongest among socially active, younger or middle-aged adults, without restrictive passengers, and with lifestyles that already include frequent dining or bar visits.
+
+*Here is a side by side comparison. Please check the legend for various conditions in the graph.*
+
+![Bar Coupons Acceptance Rates and Distribution Conditions](./images/acceptance_rates_and_distribution_conditions_comparison.png)
+
+<!-- Another visual to display rejection rates for bar coupons as well -->
+![Bar Coupons Acceptance & Rejecton Rates Stacked](./images/stacked_acceptance_rejection_conditions_comparison.png)
+
 <h3 style="color:purple;">Key Findings & Insights</h3>
 The findings suggest that bar coupons are most appealing to a specific lifestyle segment: socially active, younger individuals whose current situation allows for a spontaneous stop at a bar (e.g., no child in the car).
 
@@ -259,8 +268,12 @@ These two categories had the highest acceptance rates overall, suggesting they a
 **Insights**
 These coupons resonate with customers looking for convenience and value in their daily routines. They require less commitment (financially and socially) than a bar or an expensive restaurant, making the decision to accept them much easier.
 
----
+![Comparing Bar vs Coffee Coupons Acceptance Rate by Passenger Types](./images/bar_vs_coffee_house_coupon_acceptance_by_passenger.png)
 
+![Same comparison but via a HeatMap](./images/bar_vs_coffee_house_coupon_acceptance_heatmap.png)
+
+---
+<h1>Generic Research</h1>
 <h3 style="color:orange;">General inference on various Coupon Types</h3>
 
 <h4 style="color:pink;"> Coupon Type Distribution</h4>
